@@ -1,4 +1,5 @@
 /** @type {import('tailwindcss').Config} */
+import animatePlugin from "tailwindcss-animate";
 export default {
   darkMode: ["class"],
   content: [
@@ -73,6 +74,6 @@ export default {
       },
     },
   },
-  // eslint-disable-next-line no-undef
-  plugins: [require("tailwindcss-animate")],
+  plugins: [animatePlugin],
 }
+
